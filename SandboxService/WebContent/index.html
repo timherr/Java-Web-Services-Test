@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sandbox Form</title>
+</head>
+<body>
+
+	<h1>Welcome to the Sandbox Form page!</h1>
+
+	<h2>Add two integers...</h2>
+	
+	<form action="sandboxRequest.jsp?action=add2Ints" method="POST">
+		<p>
+			Value 1: <input type="text" name="val1"><br>
+			Value 2: <input type="text" name="val2"><br>
+			<input type="submit" value="Add!">
+		</p>
+	</form>
+
+	<h2>Multiply two integers...</h2>
+	
+	<form action="sandboxRequest.jsp?action=multiply2Ints" method="POST">
+		<p>
+			Value 1: <input type="text" name="val1"><br>
+			Value 2: <input type="text" name="val2"><br>
+			<input type="submit" value="Multiply!">
+		</p>
+	</form>
+	
+	<h2>Reverse a string...</h2>
+	
+	<form action="sandboxRequest.jsp?action=reverse" method="POST">
+		<p>
+			String: <input type="text" name="input"><br>
+			<input type="submit" value="Reverse!">
+		</p>
+	</form>
+	
+	<h2>Convert a string to UPPERCASE...</h2>
+	
+	<form action="sandboxRequest.jsp?action=upperCase" method="POST">
+		<p>
+			String: <input type="text" name="input"><br>
+			<input type="submit" value="UPPER!">
+		</p>
+	</form>
+
+	<h2>Convert a string to lowercase...</h2>
+	
+	<form action="sandboxRequest.jsp?action=lowerCase" method="POST">
+		<p>
+			String: <input type="text" name="input"><br>
+			<input type="submit" value="lower!">
+		</p>
+	</form>
+
+</body>
+</html>
